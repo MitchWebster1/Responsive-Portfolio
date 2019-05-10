@@ -7,8 +7,8 @@
   </head>
 
   <body>
-    <header>
-      <h1 class="myname">Mitch Webster</h1>
+    <header class="white">
+      <h1 class="myname background_orange">Mitch Webster</h1>
 
       <nav>
         <div class="topnav">
@@ -20,24 +20,39 @@
     </header>
 
     <main class="main">
-      <form class="form">
-        <h2>Contact</h2>
+      <form class="content background_transparent_white">
+        <h2 class="orange">Contact</h2>
         <hr />
         <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="  John Smith" />
+        <input
+          type="text"
+          id="name"
+          class="background_transparent_white"
+          name="name"
+          placeholder="  John Smith"
+        />
 
         <label for="email">Email</label>
         <input
           type="text"
           id="email"
+          class="background_transparent_white"
           name="email"
           placeholder="  example@gmail.com"
         />
 
         <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
+        <textarea
+          id="message"
+          class="background_transparent_white"
+          name="message"
+        ></textarea>
 
-        <input class="submit" type="submit" value="Submit" />
+        <input
+          class="submit background_orange white"
+          type="submit"
+          value="Submit"
+        />
       </form>
     </main>
     <footer>
