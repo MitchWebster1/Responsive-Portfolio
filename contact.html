@@ -1,62 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-  </head>
 
-  <body>
-    <header class="white">
-      <h1 class="myname background_orange">Mitch Webster</h1>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Your Name</a>
       <nav>
-        <div class="topnav">
-          <a href="index.html">About |</a>
-          <a href="portfolio.html">Portfolio |</a>
-          <a class="active" href="contact.html">Contact</a>
-        </div>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main class="main">
-      <form class="content background_transparent_white">
-        <h2 class="orange">Contact</h2>
-        <hr />
-        <label for="name">Name</label>
-        <input
-          type="text"
-          id="name"
-          class="background_transparent_white"
-          name="name"
-          placeholder="  John Smith"
-        />
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-        <label for="email">Email</label>
-        <input
-          type="text"
-          id="email"
-          class="background_transparent_white"
-          name="email"
-          placeholder="  example@gmail.com"
-        />
-
-        <label for="message">Message</label>
-        <textarea
-          id="message"
-          class="background_transparent_white"
-          name="message"
-        ></textarea>
-
-        <input
-          class="submit background_orange white"
-          type="submit"
-          value="Submit"
-        />
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
       </form>
-    </main>
-    <footer>
-      <div class="footer">copyright &copy;</div>
-    </footer>
-  </body>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
+
 </html>
