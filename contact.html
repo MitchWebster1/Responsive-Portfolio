@@ -12,56 +12,40 @@
   </head>
 
   <body>
-    <header class="white">
-      <h1 class="myname background_orange">Mitch Webster</h1>
+    <header class="header">
+      <div class="myName"><h1>Mitch Webster</h1></div>
 
-      <nav>
-        <div class="topnav">
-          <a href="index.html">About |</a>
-          <a href="portfolio.html">Portfolio |</a>
-          <a class="active" href="contact.html">Contact</a>
-        </div>
+      <nav class="topNav">
+        <a href="index.html">About |</a>
+        <a href="portfolio.html">Portfolio |</a>
+        <a class="active" href="contact.html">Contact</a>
       </nav>
     </header>
 
     <main class="main">
-      <form class="content background_transparent_white">
-        <h2 class="orange">Contact</h2>
+      <form class="content">
+        <div class="contentLabel"><h2>Contact</h2></div>
         <hr />
         <label for="name">Name</label>
-        <input
-          type="text"
-          id="name"
-          class="background_transparent_white"
-          name="name"
-          placeholder="  John Smith"
-        />
+        <input type="text" id="name" name="name" placeholder="  John Smith" />
 
         <label for="email">Email</label>
         <input
           type="text"
           id="email"
-          class="background_transparent_white"
           name="email"
           placeholder="  example@gmail.com"
         />
 
         <label for="message">Message</label>
-        <textarea
-          id="message"
-          class="background_transparent_white"
-          name="message"
-        ></textarea>
+        <textarea id="message" name="message"></textarea>
 
-        <input
-          class="submit background_orange white"
-          type="submit"
-          value="Submit"
-        />
+        <input class="submit" type="submit" value="Submit" />
       </form>
     </main>
+
     <footer>
-      <div class="footer">copyright &copy;</div>
+      <div class="footer">copyright &copy; 2019</div>
     </footer>
   </body>
 </html>
