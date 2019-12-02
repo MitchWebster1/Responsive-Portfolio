@@ -1,6 +1,6 @@
-# Bootstrap Portfolio
+# Responsive Portfolio
 
-[**https://mitchwebster1.github.io/Bootstrap-Portfolio/**](https://mitchwebster1.github.io/Bootstrap-Portfolio/)
+[**https://mitchwebster1.github.io/Responsive-Portfolio/**](https://mitchwebster1.github.io/Responsive-Portfolio/)
 
 ## What does this project do?
 
@@ -8,7 +8,7 @@ This is a simple portfolio site to display projects I have worked on.
 
 ## Why is this project useful?
 
-This project was used for learning the basics of bootstrap.
+This project was used for learning about breakpoints and media queries.
 
 ## How can users get started with this project?
 
